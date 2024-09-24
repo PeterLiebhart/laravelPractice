@@ -1,5 +1,81 @@
+$primary: #01a6ea;
+$secondary: #a6dcf1;
+$border-radius: 25px;
+$btn-padding-y: 0.4rem;
+$btn-padding-x: 0.6rem;
+$box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-// include bootstrap
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// custom code here
+$q2e-gradient: linear-gradient(-45deg, $primary, $secondary, $dark );
+
+html {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: $q2e-gradient;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+.q2e-container {
+    @extend .bg-light;
+    @extend .container;
+    @extend .mt-5;
+    @extend .p-4;
+    @extend .rounded;
+    @extend .mb-4;
+    @extend .align-items-center;
+    @extend .shadow;
+}
+
+.q2e-table {
+    @extend .table;
+    @extend .align-middle;
+    @extend .w-100;
+    @extend .mb-0;
+}
+
+.q2e-td {
+    @extend .align-middle;
+    @extend .border-dark;
+}
+
+.q2e-btn-primary {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .border-dark;
+    @extend .m-1;
+    @extend .shadow;
+}
+
+.q2e-btn-secondary {
+    @extend .btn;
+    @extend .btn-secondary;
+    @extend .border-dark;
+    @extend .m-1;
+    @extend .shadow;
+}
+
+.q2e-btn-danger {
+    @extend .btn;
+    @extend .btn-dark;
+    @extend .ml-3;
+    @extend .border-primary;
+    @extend .shadow;
+}
+
+.gMap {
+    @extend .shadow;
+    @extend .h-100;
+    @extend .w-100;
+    border: $dark solid 3px;
+}
+
+
+

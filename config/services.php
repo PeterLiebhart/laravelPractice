@@ -14,6 +14,10 @@ return [
     |
     */
 
+    'google_maps' => [
+        'key' => "AIzaSyALBAhx7kCM3kc7U69AW14kI_lU0xQX4i8",
+    ],
+
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),

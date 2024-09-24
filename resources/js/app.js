@@ -1,7 +1,4 @@
 require('./bootstrap');
 
-// application code here:
+window.$ = window.jQuery = require('jquery');
 
-$(document).ready(function() {
-	console.log('JS up and running...');
-});

@@ -9,16 +9,10 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar bg-light shadow">
           <a class="navbar-brand" href="#">
             <img src="https://data.q2e.at/cdn/images/logo-with-slogan-375x115.png"
                  alt="Logo von Q2E Online-Agentur"
